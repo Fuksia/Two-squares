@@ -1,0 +1,18 @@
+.wrapper {
+    width: 100%;
+    height: auto;
+    flex-wrap: nowrap;
+    justify-content: center;
+    display: flex;
+
+  .inner-wrapper {
+    width: 92%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: center;
+    border: 3px solid red;
+    margin-top: 15px;
+    }
+}
